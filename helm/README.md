@@ -153,7 +153,7 @@ spec:
             - /tmp/healthy
 ```
 
-**6) Ensure each container has a configured liveness probe
+**6) Ensure each container has a configured liveness probe**
 
 **Rule impact:**
 When liveness probes aren't set, Kubernetes can't determine when a pod should be restarted, which can result with an unavailable application
